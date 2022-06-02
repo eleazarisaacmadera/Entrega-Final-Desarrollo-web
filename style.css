@@ -1,0 +1,515 @@
+*{ color: black;
+    
+}
+/* header */
+
+.logo {
+    display: flex;
+    justify-content: left;
+    height: fit-content;
+}
+
+/*
+.imagenes-carrusel {
+    display: flex;
+    justify-content: center;
+}
+*/
+.menu-container {
+    background-color:rgb(235, 235, 241);
+    padding: 0;
+    display: flex; 
+    justify-content: right;   
+    
+   }
+
+
+/*Letras*/
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    font-weight: 600;
+    text-decoration: none;
+    padding: 60px;
+    color: black;
+    }
+
+
+.current-project {
+    display: flex;
+    justify-content: left;
+    padding-top: 2%;
+}
+
+.previous-projects {
+    display: flex;
+    justify-content: right;
+    padding-top: 2%;
+}
+
+.imagen-diaspora {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 2.5%;
+    padding-top: 2%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Css Bio*/
+
+
+.retratoele {
+    padding-top: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.eleazarmadera {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+
+    .biografia { 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 10%;
+
+    }
+
+
+
+/* Portfolio */
+
+.portraits-title {padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.portraits {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 2.5%;
+}
+
+.nude-title {padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.nude {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 2.5%;
+}
+
+.docummentary-title {padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.docummentary {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 2.5%;
+}
+
+.editorial-title {padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.editorial {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 2.5%;
+}
+
+.product-title {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.imagenes-product {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    
+}
+
+/*Contact*/
+
+
+.contact-contact {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+} 
+
+.mail {
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 60;
+    font-size: small;
+}
+
+
+
+/*Css Bio*/
+
+
+.retratoele {
+    padding-top: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-container {
+    background-color:rgb(235, 235, 241);
+    padding: 0;
+    display: flex; 
+    justify-content: space-evenly;
+
+}
+
+
+title {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+p {
+    display: flex;
+    text-align: center;
+}
+
+
+/* CSS Projects*/
+
+
+.projects-pp {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+
+.cover-projects {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5%;
+   }
+
+.persona-titlep {
+    padding-left: 50%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.persona-imagenp {
+    display: flex;
+    padding-left: 15%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.persona-imagenp:hover {
+    transform: scale(1.05);
+}
+
+
+.diaspora {
+    display: flex;
+    justify-content: right;
+    padding-top: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.diaspora-imagenp {
+    display: flex;
+    padding-left: 40%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.diaspora-imagenp:hover {
+    transform: scale(1.05); 
+}
+
+
+
+/* Portfolio */
+
+.portraits-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.imagenes-portraits {
+    display: flex;
+    justify-content: center;
+    transition: all 1s;   
+}
+
+.imagenes-portraits:hover {
+    transform: scale(1.05);
+}
+
+
+.nude-title-portfolio {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.imagenes-nude {
+    display: flex;
+    justify-content: center;   
+}
+
+
+.docummentary-title-portfolio {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.imagenes-docummentary {
+    display: flex;
+    justify-content: center;
+}
+
+.editorial-title-portfolio {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.imagenes-editorial {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.product-title-portfolio {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.imagenes-product-portfolio {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+
+/*Contact*/
+
+.mail-contact {
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 60;
+    font-size: small;
+    padding-bottom: 10%;
+}
+
+.contact-image {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.grid-container {
+    display:grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 70%;
+    padding-top: 5%;
+    
+}
+
+
+.contenedor-grido{
+    display: grid
+    ;grid-template-columns: 50% 50%;
+    
+    gap: 10px;
+    height: 10cm;
+}
+.grido1{
+
+padding-left: 43px;
+padding-right: 10%;
+padding-top: 80px;
+
+}
+
+.grido2{
+padding-top: 80px;
+padding-left: 17%;
+}
+
+.titulo-grido1 {
+    
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.titulo-grido2 {
+    
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 250px;
+}
+
+.grid-container-portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*potfolio gird*/
+
+.grid-container-portfolio {
+    display:grid;
+    grid-template-rows: 1/3 1/3 1/3;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0%;
+    padding-left: 10%;
+    justify-content: center;
+}
+
+.grid-portfolio-titles {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-portfolio-docummentary {
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-portfolio-nude {
+
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.grid-portfolio-portraits {
+
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.grid-portfolio-editorial {
+
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.grid-portfolio-product {
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5%;
+
+}
+
+
+.image-product-portfolio {
+    display: flex;
+    justify-content: center;
+    padding-left: 35%;
+    transition: all 1s;
+}
+
+.image-product-portfolio:hover {
+    transform: scale(1.05);
+}
+
+/* Carousel con bootstrap */
+
+.carousel-item {
+   width: 100%;
+   height: 80vh;
+}
+
+.carrusel6 {
+    justify-content: right;
+    padding-right: 10%;
+}
+
+/* bootstrap */
+
+.footerinicio {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    color: black;
+}
+
+.footerbio {
+    display: flex;
+    justify-content: center;
+   
+    color: black;
+}
+
+
+

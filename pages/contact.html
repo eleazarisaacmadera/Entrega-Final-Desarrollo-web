@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- Boostrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+<!--CSS-->
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="shortcut icon" href="../imagenes/pngtree-camera-icon-vector-in-solid-style-png-image_1958526.ico"
+        type="image/x-icon">
+
+
+ <!--Fonts-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--Header-->
+<!-- Header navegable con Grid mas carrusel -->
+
+<header>
+
+<nav class="grid-container">
+ <div class="grid-item"><a href="../index.html"> <img src="../imagenes/logo-web.jpg" height="85" alt=""> </a></div>
+ <div class="grid-item2">
+     <ul>
+         <a class="bio" href="../pages/bio.html">Bio</a>
+         <a class="projects" href="../pages/projects.html">Projects</a>
+         <a class="portfolio" href="../pages/portfolio.html">Portfolio</a>
+         <a class="contact" href="../pages/contact.html">Contact</a>
+         
+     </ul>
+ </div>
+
+</nav>
+</header>
+
+<!--Caja contacto-->
+
+<div class="box">
+<section class="d-flex justify-content-center align-items-center">
+    <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4"> 
+        <div class="mb-4 d-flex justify-content-start align-items-center">
+          
+            <h4 class="contact-title">  <i class="bi bi-chat-left-quote"></i> &nbsp; Contact</h4>
+        </div>
+        <div class="mb-1">
+            <form id = "contacto" >
+                <div class="mb-4 d-flex justify-content-between"> 
+                    <div>
+                        <label for="nombre"> <i class="bi bi-person-fill"></i> Name</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder= "" required>
+                        <div class="nombre text-danger "></div>
+                    </div>
+                    <div >
+                        <label for="lastname"> <i class="bi bi-person-bounding-box"></i> Last Name</label>
+                        <input type="text" class="form-control" name="apellido" id="lastname" placeholder= "" required>
+                        <div class="lastname text-danger"></div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="email"><i class="bi bi-envelope-fill"></i> e-mail</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder= "" required>
+                    <div class="email text-danger"></div>
+                    
+                </div> 
+                <div class="mb-4">
+                    <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Message</label>
+                    <textarea name="message" id="message" class="form-control" placeholder="ej: hola"></textarea>
+                    <div class="message text-danger"></div>
+                </div> 
+                
+                <div class="mb-2">
+                    <button id ="send" class="col-12 btn btn-primary d-flex justify-content-between ">
+                        <span>Send</span><i id="send" class="bi bi-cursor-fill "></i>
+                    </button>
+                </div> 
+                          
+            </form>
+        </div>
+    </div>
+</section>
+</div>
+
+<!--Fin caja de contacto-->
+
+<body>
+
+    <h1 class="contact-contact">Contact</h1>
+    <h2 class="mail-contact">eleazarisaacph@gmail.com</h2>
+
+ <!--Footer-->
+ <footer class="footer">
+    <nav class="nav">
+        <a class="nav-link active" aria-current="page" href="https://www.instagram.com/eleazar.isaac/">Instagram</a>
+        <a class="nav-link" href="https://www.facebook.com/eleazar.madera">Facebook</a>
+        <a class="nav-link" href="https://mobile.twitter.com/eleazarisaacph">Twitter</a>
+        <a class="nav-link" href="https://www.youtube.com/channel/UCOFyqGWn-Cs3NJH2QLgz9fw">Youtube</a>
+      </nav>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
