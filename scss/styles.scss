@@ -1,0 +1,86 @@
+/* Aplicando Sass */
+
+$color-principal: rgb(7, 7, 7);
+$title-font:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+header {
+    .grid-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 70%;
+        padding-top: 5%;
+
+        a {
+            font-weight: 600;
+            text-decoration: none;
+            padding: 60px;
+            color: $color-principal;
+            transition: all 1s;
+            font: $title-font;
+
+            &:hover {
+                color: rgb(247, 193, 142);
+                transform: scale(0.5);
+                font-size: 105%;
+            }
+
+        }
+    }
+}
+
+/* Grid Inicio */
+
+.contenedor-grido {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    height: 10cm;
+}
+
+.grido1 {
+    padding-left: 43px;
+    padding-right: 10%;
+    padding-top: 80px;
+}
+
+.titulo-grido1 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: $color-principal;
+    font: $title-font;
+    text-decoration: none;
+}
+
+.grido2 {
+    padding-top: 80px;
+    padding-left: 17%;
+}
+
+.titulo-grido2 {
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 5%;
+    color: $color-principal;
+    text-decoration: none;
+}
+
+/* Footer inicio */
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    color: $color-principal;
+    font: $title-font;
+
+    .nav-link {
+        color: $color-principal;
+        transition: 1s;
+
+        &:hover {
+            color: rgb(247, 193, 142);
+            transform: scale(0.5);
+            font-size: 105%;
+        }
+    }
+}
