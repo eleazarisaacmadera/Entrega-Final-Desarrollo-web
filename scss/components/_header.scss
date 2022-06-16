@@ -1,0 +1,27 @@
+
+@import "../base/variables";
+
+header {
+    .grid-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 70%;
+        padding-top: 5%;
+
+        a {
+            font-weight: 600;
+            text-decoration: none;
+            padding: 60px;
+            color: $color-principal;
+            transition: all 1s;
+            font: $title-font;
+
+            &:hover {
+                color: rgb(247, 193, 142);
+                transform: scale(0.5);
+                font-size: 105%;
+            }
+
+        }
+    }
+}

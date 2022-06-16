@@ -1,3 +1,10 @@
+@import "components/footer";
+@import "mixins";
+@import "components/header";
+@import "base/listas";
+@import "base/extends";
+
+
 /* Aplicando Sass */
 
 $color-principal: rgb(7, 7, 7);
@@ -19,7 +26,7 @@ header {
             font: $title-font;
 
             &:hover {
-                color: rgb(247, 193, 142);
+                color: nth($colores, 2);
                 transform: scale(0.5);
                 font-size: 105%;
             }
@@ -65,22 +72,141 @@ header {
     text-decoration: none;
 }
 
-/* Footer inicio */
-footer {
+/* Bio */
+
+.retratoele {
+    @extend %images-centradas;
+    
+}
+.eleazarmadera {
+    @extend %titulos;
+}
+
+.biografia {
+    @extend %texto-bio;
+}
+
+.biografia-final {
+    @extend %texto-bio2;
+}
+
+/* pagina Projects */
+
+.projects-pp {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.cover-projects {
     display: flex;
     justify-content: center;
-    padding-top: 15%;
-    color: $color-principal;
-    font: $title-font;
-
-    .nav-link {
-        color: $color-principal;
-        transition: 1s;
-
-        &:hover {
-            color: rgb(247, 193, 142);
-            transform: scale(0.5);
-            font-size: 105%;
-        }
-    }
+    padding-top: 2.5%;
 }
+
+.persona-titlep {
+    padding-left: 50%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: left;
+}
+
+.persona-imagenp {
+    display: flex;
+    padding-left: 15%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.persona-imagenp:hover {
+    transform: scale(1.05);
+}
+
+.diaspora {
+    display: flex;
+    justify-content: right;
+    padding-top: 10%;
+}
+
+.diaspora-imagenp {
+    display: flex;
+    padding-left: 40%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.diaspora-imagenp:hover {
+    transform: scale(1.05);
+}
+
+/* pagina Projects */
+
+/* pagina portfolio */
+
+.grid-container-portfolio {
+    display: grid;
+    grid-template-rows: 1/3 1/3 1/3;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0%;
+    padding-left: 10%;
+    justify-content: center;
+}
+
+.grid-portfolio-titles {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-portfolio-docummentary {
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+}
+
+.grid-portfolio-nude {
+    display: flex;
+    justify-content: center;
+    padding-right: 20%; 
+}
+
+.grid-portfolio-portraits {
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+}
+
+.grid-portfolio-editorial {
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    
+}
+
+.grid-portfolio-product {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.image-product-portfolio {
+    display: flex;
+    justify-content: center;
+    padding-left: 35%;
+    transition: all 1s;
+}
+
+.imagenes-portraits {
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.imagenes-portraits:hover {
+    transform: scale(1.05);
+}
+
+.image-product-portfolio:hover {
+    transform: scale(1.05);
+}
+

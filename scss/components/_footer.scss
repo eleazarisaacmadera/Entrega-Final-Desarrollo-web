@@ -1,0 +1,20 @@
+@import "../base/variables";
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    color: $color-principal;
+    font: $title-font;
+
+    .nav-link {
+        color: $color-principal;
+        transition: 1s;
+
+        &:hover {
+            color: rgb(247, 193, 142);
+            transform: scale(0.5);
+            font-size: 105%;
+        }
+    }
+}
