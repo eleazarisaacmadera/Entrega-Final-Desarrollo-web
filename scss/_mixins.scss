@@ -1,0 +1,17 @@
+@import "base/extends";
+
+@mixin sizetitles   {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+}
+
+.contact-contact {
+    @include sizetitles;
+}
+
+.mail-contact {
+    @include sizetitles;
+}
+
