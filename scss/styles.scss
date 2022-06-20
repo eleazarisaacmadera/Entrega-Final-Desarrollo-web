@@ -5,10 +5,8 @@
 @import "base/extends";
 
 
-/* Aplicando Sass */
-
 $color-principal: rgb(7, 7, 7);
-$title-font:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$title-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 header {
     .grid-container {
@@ -35,7 +33,7 @@ header {
     }
 }
 
-/* Grid Inicio */
+/* Pagina de inicio con Grid */
 
 .contenedor-grido {
     display: grid;
@@ -72,12 +70,11 @@ header {
     text-decoration: none;
 }
 
-/* Bio */
-
+/* Pagina Bio */
 .retratoele {
     @extend %images-centradas;
-    
 }
+
 .eleazarmadera {
     @extend %titulos;
 }
@@ -90,7 +87,7 @@ header {
     @extend %texto-bio2;
 }
 
-/* pagina Projects */
+/* Pagina Projects */
 
 .projects-pp {
     display: flex;
@@ -140,9 +137,7 @@ header {
     transform: scale(1.05);
 }
 
-/* pagina Projects */
-
-/* pagina portfolio */
+/* Pagina Portfolio */
 
 .grid-container-portfolio {
     display: grid;
@@ -167,7 +162,7 @@ header {
 .grid-portfolio-nude {
     display: flex;
     justify-content: center;
-    padding-right: 20%; 
+    padding-right: 20%;
 }
 
 .grid-portfolio-portraits {
@@ -180,7 +175,6 @@ header {
     display: flex;
     justify-content: center;
     padding-right: 20%;
-    
 }
 
 .grid-portfolio-product {
@@ -209,4 +203,3 @@ header {
 .image-product-portfolio:hover {
     transform: scale(1.05);
 }
-
