@@ -5,10 +5,12 @@ footer {
   color: rgb(7, 7, 7);
   font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
 footer .nav-link {
   color: rgb(7, 7, 7);
   transition: 1s;
 }
+
 footer .nav-link:hover {
   color: rgb(247, 193, 142);
   transform: scale(0.5);
@@ -61,6 +63,7 @@ header .grid-container {
   grid-template-columns: 1fr 70%;
   padding-top: 5%;
 }
+
 header .grid-container a {
   font-weight: 600;
   text-decoration: none;
@@ -69,6 +72,7 @@ header .grid-container a {
   transition: all 1s;
   font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
 header .grid-container a:hover {
   color: rgb(247, 193, 142);
   transform: scale(0.5);
@@ -107,6 +111,7 @@ header .grid-container {
   grid-template-columns: 1fr 70%;
   padding-top: 5%;
 }
+
 header .grid-container a {
   font-weight: 600;
   text-decoration: none;
@@ -115,6 +120,7 @@ header .grid-container a {
   transition: all 1s;
   font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
 header .grid-container a:hover {
   color: rgb(247, 193, 142);
   transform: scale(0.5);
@@ -275,9 +281,6 @@ header .grid-container a:hover {
 
 
 @media screen and (max-width:820px) {
-  body {
-    background-color: brown;
-  }
   .contenedor-grido {
     display: grid;
     grid-template-columns: 50%;
@@ -292,11 +295,11 @@ header .grid-container a:hover {
     color: rgb(7, 7, 7);
     font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   }
-
+/*Portfolio*/
   .grid-container-portfolio {
-   display: flex;
-   flex-direction: column;
-   margin: 00.10%auto;
+    display: flex;
+    flex-direction: column;
+    margin: 00.10%auto;
   }
 
   .image-product-portfolio {
@@ -305,21 +308,25 @@ header .grid-container a:hover {
     padding-left: 15%;
     transition: all 1s;
   }
+
   .grid-portfolio-nude {
     display: flex;
     justify-content: center;
     padding-top: 5%;
   }
+
   .grid-portfolio-editorial {
     display: flex;
     justify-content: center;
     padding-top: 5%;
   }
+
   .grid-portfolio-portraits {
     display: flex;
     justify-content: center;
     padding-top: 5%;
   }
+
   .imagenes-portraits {
     display: flex;
     justify-content: center;
@@ -328,11 +335,8 @@ header .grid-container a:hover {
 }
 
 @media screen and (max-width:600px) {
-  
+
   /*Inicio*/
-  body {
-    background-color: rgb(52, 216, 37);
-  }
   .contenedor-grido {
     display: grid;
     grid-template-columns: 100%;
@@ -345,17 +349,20 @@ header .grid-container a:hover {
     color: rgb(7, 7, 7);
     font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   }
+
   /*Projects*/
   .projects-pp {
     display: flex;
     flex-direction: column;
   }
+
   .persona-titlep {
     padding-left: 35%;
     padding-top: 10%;
     display: flex;
     justify-content: left;
   }
+
   .persona-imagenp {
     display: flex;
     padding-left: 0%;
@@ -365,59 +372,63 @@ header .grid-container a:hover {
   }
 
   .diaspora {
-  padding-right: 10%;
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+  }
+
+  .diaspora-imagenp {
+    display: flex;
+    padding-left: 0%;
+    transition-property: all;
+    transition-duration: 1s;
+    height: 250px;
+  }
+
+  /*Portfolio*/
+  .grid-container-portfolio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-portfolio-product {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+  .image-product-portfolio {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    transition: all 1s;
+  }
+
+  .image-product-portfolio {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    transition: all 1s;
+  }
+
+  .grid-portfolio-nude {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+  .grid-portfolio-editorial {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+  .grid-portfolio-portraits {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
 }
 
-.diaspora-imagenp {
-  display: flex;
-  padding-left: 0%;
-  transition-property: all;
-  transition-duration: 1s;
-  height: 250px;
-}
-
-/*Portfolio*/
-.grid-container-portfolio {
-  display: flex;
-  flex-direction: column;
-}
-
-.grid-portfolio-product {
-  display: flex;
-  justify-content: center;
-  padding-top: 5%;
-}
-
-.image-product-portfolio {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10%;
-  transition: all 1s;
-}
-
-.image-product-portfolio {
-  display: flex;
-  flex-direction: column;
-  padding-left: 15%;
-  transition: all 1s;
-}
-.grid-portfolio-nude {
-  display: flex;
-  justify-content: center;
-  padding-top: 5%;
-}
-.grid-portfolio-editorial {
-  display: flex;
-  justify-content: center;
-  padding-top: 5%;
-}
-.grid-portfolio-portraits {
-  display: flex;
-  justify-content: center;
-  padding-top: 5%;
-}
-}
 /*# sourceMappingURL=style.css.map */
